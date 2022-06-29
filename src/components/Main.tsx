@@ -45,7 +45,7 @@ const Main: React.FC = () => {
 					addDie();
 				}}
 			>
-				+
+				NEW
 			</Button>
 			<div className="flexbox">
 				{dice.map((die, i) => (

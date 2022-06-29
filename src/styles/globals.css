@@ -19,16 +19,6 @@ a {
 	cursor: pointer;
 }
 
-.add {
-	font-size: 2rem;
-	height: 3rem;
-}
-
-.close {
-	position: absolute;
-	transform: translateX(132px);
-}
-
 .container {
 	margin-top: 1rem;
 	text-align: center;
@@ -53,15 +43,23 @@ a {
 	text-align: center;
 }
 
-.button {
+.dice-inner {
 	margin: 0.5rem;
 }
 
 .result {
 	margin: 0.5rem;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 
-.input {
-	padding: 0.5rem;
+.roll {
+	width: fit-content;
+}
+
+.close {
+	float: right;
+}
+
+.invis {
+	opacity: 0;
 }
